@@ -4,7 +4,7 @@ import { ProductProvider } from "../context/ProductContext";
 import { Route, Routes } from "react-router-dom";
 import ListLayout from "../layouts/ListLayout";
 import ListPage from "../pages/ListPage";
-import HomePage from "../pages/home";
+import HomePage from "../pages/home/index";
 
 const AppRoutes = () => {
   return (
