@@ -20,7 +20,7 @@ const CartModal = () => {
     <>
       <div className="fixed md:hidden inset-0 bg-white/5 backdrop-blur-sm" />
       <div
-        className="fixed md:hidden left-4 right-4 top-4 bottom-4 rounded-lg z-30 
+        className="fixed md:hidden left-2 right-2 top-4 bottom-4 rounded-lg z-30 
        p-4 flex flex-col gap-y-4 overflow-hidden bg-secondary text-white "
       >
         <div className="flex flex-col gap-y-4 relative">
