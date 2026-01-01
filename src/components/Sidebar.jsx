@@ -21,7 +21,7 @@ const Sidebar = () => {
               const isActive = activeTab === index;
               return (
                 <Link
-                  to={menu.path}
+                  // to={menu.path}
                   key={index}
                   className={`w-full h-20  cursor-pointer  ${
                     isActive ? "bg-primary rounded-l-2xl" : ""
